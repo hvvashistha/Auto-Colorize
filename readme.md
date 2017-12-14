@@ -4,9 +4,11 @@
 #### Harsh Vashistha, Deepanjan Bhattacharyya, Bharat Prakash
 #### {harsh5, deep8, bh1} @umbc.edu
 <hr/>
-<br/><br/>
+
 Project for Data Science course [CMSC 491/691](https://www.csee.umbc.edu/~kalpakis/courses/491-fa17/)
+
 [Project Slides](resources/slides.pdf)
+
 Data Set - [ImageNet fall 11 URLs](http://image-net.org/imagenet_data/urls/imagenet_fall11_urls.tgz)
 
 ## Project Introduction
