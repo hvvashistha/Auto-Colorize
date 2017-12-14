@@ -1,19 +1,13 @@
 
-<center><h1>Automated Colorization of Images</h1></center>
+## Automated Colorization of Images
 
-<center>Harsh Vashistha, Deepanjan Bhattacharyya, Bharat Prakash</center>
-<center>{harsh5, deep8, bh1} @umbc.edu</center>
+#### Harsh Vashistha, Deepanjan Bhattacharyya, Bharat Prakash
+#### {harsh5, deep8, bh1} @umbc.edu
 <hr/>
 <br/><br/>
-<center>
-Project for Data Science course ([CMSC 491/691](https://www.csee.umbc.edu/~kalpakis/courses/491-fa17/))
-</center>
-<center>
+Project for Data Science course [CMSC 491/691](https://www.csee.umbc.edu/~kalpakis/courses/491-fa17/)
 [Project Slides](resources/slides.pdf)
-</center>
-<center>
 Data Set - [ImageNet fall 11 URLs](http://image-net.org/imagenet_data/urls/imagenet_fall11_urls.tgz)
-</center>
 
 ## Project Introduction
 
@@ -243,8 +237,10 @@ __```L*a*b*```__ has three channels Corresponding to L for lightness, a and b fo
 The advantage of using ```L*a*b*``` is that Lightness channel which is the black & white image and the color channels are separate. This gives us the convenience to combine the black & white input with the ```a*b*``` color channels at the output.
 
 __Eg:__ <br />
-<img src="http://shutha.org/sites/default/files//uploads/3_Courses/3_Digital_Imaging/02%20LAB1b.jpg" style="height:500px; display:inline-block; float:left;" />&nbsp;&nbsp;&nbsp;__becomes__&nbsp;&nbsp;&nbsp;
-<img src="http://shutha.org/sites/default/files//uploads/3_Courses/3_Digital_Imaging/02%20LAB2b.jpg" style="height:500px; display:inline-block; float:right;" />
+
+Example Image | Color channels
+:----:|:--------:
+<img src="http://shutha.org/sites/default/files//uploads/3_Courses/3_Digital_Imaging/02%20LAB1b.jpg" height="450"/> | <img src="http://shutha.org/sites/default/files//uploads/3_Courses/3_Digital_Imaging/02%20LAB2b.jpg" height="450"/> |
 
 #### Color Space ranges:
 
@@ -360,14 +356,12 @@ During training, this metric score triggers following routines:
 * Reduce Learning Rate by a factor of 0.1 if no improvements for cosequtive few epochs
 * Stop training if we are not seeing any improvement at all for considerable amount of time
 <hr/>
-### Sample Input Images
-| 1 | 2 | 3 | 4 | 5 |
-|:---:|:---:|:---:|:---:|:---:|
-| <img src="resources/bnw_1.png" style="width:150px; height:150px; vertical-align:bottom; display:inline-block;"/> |
-| <img src="resources/bnw_2.png" style="width:150px; height:150px; vertical-align:bottom; display:inline-block;"/> |
-| <img src="resources/bnw_3.png" style="width:150px; height:150px; vertical-align:bottom; display:inline-block;"/> |
-| <img src="resources/bnw_4.png" style="width:150px; height:150px; vertical-align:bottom; display:inline-block;"/> |
-| <img src="resources/bnw_5.png" style="width:150px; height:150px; vertical-align:bottom; display:inline-block;"/> |
+
+### Sample from Input Images
+
+| Image 1 | Image 2 | IMage 3 | Image 4 | Image 5 |
+|:----:|:----:|:----:|:----:|:----:|
+| <img src="resources/bnw_1.png"/> | <img src="resources/bnw_2.png"/> | <img src="resources/bnw_3.png"/> | <img src="resources/bnw_4.png"/> | <img src="resources/bnw_5.png"/> |
 
 
 ```python
